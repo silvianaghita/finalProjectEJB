@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="finalProjectEJB">
+		<jta-data-source>jdbc/finalProjectResource</jta-data-source>
+	    <class>com.example.finalprojectejb.model.ClientB2B</class>
+		<class>com.example.finalprojectejb.model.ClientB2C</class>
+		<class>com.example.finalprojectejb.model.ClientOrder</class>
+		<class>com.example.finalprojectejb.model.OrderItem</class>
+	    <class>com.example.finalprojectejb.model.Promo</class>
+		<class>com.example.finalprojectejb.model.StockClientB2B</class>
+	    <class>com.example.finalprojectejb.model.StockSupplier</class>
+		<class>com.example.finalprojectejb.model.Supplier</class>
+		<class>com.example.finalprojectejb.model.PlatformUser</class>
+		<class>com.example.finalprojectejb.model.Wine</class>																	
+	</persistence-unit>
+</persistence>
